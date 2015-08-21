@@ -1,0 +1,10 @@
+{
+    "email": {
+        "blance": 50000,
+        "transanctions": {
+            "type": "debit",
+            "date": "date",
+            "description": "description"
+        }
+    }
+}

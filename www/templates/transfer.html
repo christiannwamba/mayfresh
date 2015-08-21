@@ -1,0 +1,35 @@
+<ion-view view-title="Transfer Money">
+    <ion-content padding="true">
+        <welcome message="account.username"></welcome>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <i class="icon ion-person placeholder-icon"></i>
+                <input type="text" placeholder="Account Number" ng-model="transfer.number">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-person placeholder-icon"></i>
+                <input type="text" ng-model="transfer.receiver" placeholder="Account Name">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-social-usd placeholder-icon"></i>
+                <input type="text" placeholder="Amount" ng-model="transfer.amount">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-social-usd placeholder-icon"></i>
+                <input type="text" placeholder="Confirm Amount">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-ios-book placeholder-icon"></i>
+                <input type="text" placeholder="Amount in words">
+            </label>
+            <label class="item item-input">
+                <i class="icon ion-ios-telephone placeholder-icon"></i>
+                <input type="text" placeholder="Reciever's phone">
+            </label>
+            <input type="hidden" ng-model="transfer.sender">
+        </div>
+        <button class="button button-full button-assertive" ng-click="send()">
+            <i class="icon ion-navigate"></i>
+        </button>
+    </ion-content>
+</ion-view>

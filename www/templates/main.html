@@ -1,0 +1,14 @@
+<ion-view view-title="Transactions" hide-back-button="true">
+    <ion-content>
+          
+       <welcome message="account.username"></welcome>
+       <a ng-hide="account.username" onclick="window.location.reload()" style="cursor:pointer; color:#ef473a; margin:20px 20px">Load Transactions</a>
+        <div class="card" ng-repeat="t in transactions">
+            <div class="item item-text-wrap">
+                <p><strong>Type: </strong><span style="text-transform:uppercase">{{t.type}}</span></p>
+                <p><strong>Amount: </strong>{{t.amount}}</p>
+                <p><strong>Date: </strong>{{t.created | date:dd-mm-yyyy}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
