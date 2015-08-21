@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.sidebar682626" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>sideBar</name>
+  <name>MayFresh</name>
   <description>
-        An Ionic Framework and Cordova project.
+        MayFresh Banking App
     </description>
   <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+      Nwoko Uchenna
     </author>
   <content src="index.html"/>
   <access origin="*"/>
-  <icon src="www/img/logo.jpg" />
+  <icon src="www/img/logo.png" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
