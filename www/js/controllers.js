@@ -18,7 +18,8 @@ app.controller('MainCtrl', function ($scope, $ionicHistory, $state, $http, Confi
     })
 });
 
-app.controller('AuthCtrl', function ($scope, $state, $window, $http, $rootScope, Config, DecodeToken, $ionicLoading) {
+app.controller('AuthCtrl', function ($scope, $state, $window, $http, $rootScope, Config, DecodeToken, $ionicLoading, $ionicHistory) {
+    $ionicHistory.clearHistory();    
     $scope.user = {};
     $scope.login = function () {
         $ionicLoading.show({
